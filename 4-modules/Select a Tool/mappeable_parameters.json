@@ -1,0 +1,24 @@
+[
+    {
+        "label": "Groups",
+        "name": "group",
+        "type": "select",
+        "options": {
+            "store": "rpc://groups",
+            "nested": [
+                {
+                    "label": "Tools",
+                    "name": "tool",
+                    "type": "select",
+                    "required": true,
+                    "options": {
+                        "store": "rpc://grouptools",
+                        "nested": [
+                            "rpc://ToolParameters"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

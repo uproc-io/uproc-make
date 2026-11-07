@@ -1,0 +1,14 @@
+{
+	"baseUrl": "https://api.uproc.io/api/v2",
+	"headers": {
+		"authorization": "Basic {{base64(connection.email + ':' + connection.apikey)}}"
+	},
+	"response": {
+		"error": {
+			"message": "[{{statusCode}}] \n{{showErrors(body.message)}}"
+		}
+	},
+	"log": {
+		"sanitize": [ "request.headers.authorization" ]
+	}
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "url",
+        "type": "text",
+        "label": "URL",
+        "help": "Enter a path relative to `https://api.uproc.io/`, for example /api/v2/process.",
+        "required": true
+    },
+    {
+        "name": "method",
+        "type": "select",
+        "label": "Method",
+        "required": true,
+        "default": "GET",
+        "options": [
+            {
+                "label": "GET",
+                "value": "GET"
+            },
+            {
+                "label": "POST",
+                "value": "POST"
+            }
+        ]
+    },
+    {
+        "name": "body",
+        "label": "Body",
+        "type": "any"
+    }
+]

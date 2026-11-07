@@ -1,0 +1,8 @@
+{
+	"url": "/zapier/processor/{{parameters.tool}}",
+	"method": "GET",
+	"response": {
+		"limit": 10,
+        "output": "{{listfields(body)}}"
+	}
+}

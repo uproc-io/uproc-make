@@ -1,0 +1,11 @@
+{
+	"url": "/process",
+	"method": "POST",
+	"body": {
+		"processor": "{{parameters.tool}}",
+		"params": "{{parameters.params}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

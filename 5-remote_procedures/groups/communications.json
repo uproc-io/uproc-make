@@ -1,0 +1,13 @@
+{
+    "url": "/zapier/groups",
+    "type": "GET",
+	"response": {
+		"limit": 20,
+        "output": {
+            "value": "{{item.id}}",
+            "label": "{{item.name}}"
+        },
+		"required": true,
+        "iterate": "{{body}}"
+    }
+}

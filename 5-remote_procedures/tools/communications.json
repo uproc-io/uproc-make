@@ -1,0 +1,13 @@
+{
+    "url": "/zapier/processors/{{parameters.group}}",
+    "type": "GET",
+	"response": {
+        "output": {
+            "value": "{{item.id}}",
+            "label": "{{item.name}}",
+			"help": "{{item.help_text}}"
+        },
+		"required": true,
+        "iterate": "{{body}}"
+    }
+}

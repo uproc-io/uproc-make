@@ -1,0 +1,14 @@
+[
+	{
+		"name": "email",
+		"type": "text",
+		"label": "Email",
+		"required": true
+	},
+	{
+		"name": "apikey",
+		"type": "password",
+		"label": "ApiKey",
+		"required": true
+	}
+]
