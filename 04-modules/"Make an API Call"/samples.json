@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "Sample",
+    "surname": "User Salas",
+    "gender": "male",
+    "email": "test@uproc.io",
+    "email_confidence": "verified",
+    "email_score": 99,
+    "profile": "https://www.linkedin.com/in/sample-user",
+    "area": "ceo",
+    "seniority": "executive",
+    "role": "Founder & Ceo @ Uproc"
+  },
+  "company_general": {
+    "name": "Sample",
+    "description": ""
+  },
+  "company_contact": {
+    "phone": "+34 600 000 000",
+    "email": "hello@uproc.io",
+    "website": "http://uproc.io",
+    "address": "",
+    "zipcode": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": ""
+  },
+  "company_financial": {
+    "industry": "",
+    "revenue": "",
+    "size": ""
+  },
+  "company_social": {
+    "instagram": "",
+    "linkedin": "",
+    "facebook": "https://facebook.com/uprocdataquality",
+    "google": "",
+    "twitter": "https://twitter.com/uproc_io",
+    "klout": "",
+    "foursquare": "",
+    "pinterest": "",
+    "slideshare": "",
+    "github": "",
+    "youtube": "https://www.youtube.com/channel/UCOUlLZwMY-J0s_HfyPxrI5A",
+    "flickr": "",
+    "aboutme": "",
+    "angellist": ""
+  },
+  "company_technologies": {
+    "result": "addtoany,cloudflare,facebook,font awesome,google analytics,google font api,jquery,php,twitter emoji (twemoji),wordpress,yoast seo"
+  }
+}

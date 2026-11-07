@@ -1,0 +1,42 @@
+{
+  "person": {
+    "name": "Sample",
+    "surname": "User Salas",
+    "email": "test@uproc.io",
+    "email_confidence": "verified",
+    "email_score": 99,
+    "profile": "https://www.linkedin.com/in/sample-user",
+    "area": "ceo",
+    "seniority": "executive",
+    "role": "Founder & Ceo @ Uproc"
+  },
+  "company_general": {
+    "name": "Uproc",
+    "description": "Data quality and enrichment platform"
+  },
+  "company_contact": {
+    "phone": "+34 600 000 000",
+    "email": "hello@uproc.io",
+    "website": "http://uproc.io",
+    "address": "",
+    "zipcode": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": ""
+  },
+  "company_financial": {
+    "industry": "Technology",
+    "revenue": "",
+    "size": ""
+  },
+  "company_social": {
+    "instagram": "",
+    "linkedin": "",
+    "facebook": "https://facebook.com/uprocdataquality",
+    "google": "",
+    "twitter": "https://twitter.com/uproc_io",
+    "github": "https://github.com/uproc-io",
+    "youtube": ""
+  }
+}
